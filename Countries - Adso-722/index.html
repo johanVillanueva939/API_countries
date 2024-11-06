@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles/main.css">
+	<link rel="stylesheet" href="styles/filters.css">
+	<link rel="stylesheet" href="styles/country.css">
+	<title>Countries</title>
+</head>
+
+<body>
+	<div class="board">
+		<header>
+			<h1>Countries</h1>
+		</header>
+		<main>
+			<aside>
+				<form class="frm-filters">
+					<fieldset>
+						<label for="">Buscar</label>
+						<input type="text" placeholder="Buscar por Paises,Capital" id="searchInput">
+					</fieldset>
+					<fieldset>
+						<label for="">Ordenar por:</label>
+						<select name="options" id="">
+							<option value="rii">A-Z</option>
+							<option value="ris">Z-A</option>
+						</select>
+					</fieldset>
+				</form>
+				<section class="demographics">
+					<h2>Colombia</h2>
+					<h3>Capital:Bogota</h3>
+					<h4>poblacion: 99999</h4>
+				</section>
+			</aside>
+			<section>
+				<!-- <div class="card-country">
+					<img src="assets/images/flags/Peru.png" alt="">
+					<h2>Colombia</h2>
+				</div> -->
+				
+			</section>
+		</main>
+		<footer>
+			<p>Elaborado por <strong>yo</strong></p>
+		</footer>
+	</div>
+	<script type="module" src="scripts/app.js"></script>
+	<script type="module" src="scripts/countries.js"></script>
+</body>
+</html>

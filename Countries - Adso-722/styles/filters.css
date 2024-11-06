@@ -1,0 +1,47 @@
+.frm-filters{
+    width: 100%;
+    height: 20%;
+    color: #b1bbc7dc;
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+    align-items: center;
+}
+.frm-filters > fieldset{
+    display: flex;
+	flex-direction: column;
+	border: none;
+    width: 17rem;
+    padding: .5rem;
+    margin: .2rem 0 0 0;
+    justify-content: center;
+    gap: 1rem;
+}
+fieldset > select, fieldset > input{
+    outline: none;
+	background-color: #012e4b;
+	border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid rgb(21, 255, 0);
+    padding: 0 .5rem;
+    font-size: .9rem;
+    border-radius: 5px;
+    padding: 5px 5px;
+    color: rgb(33, 163, 8);
+    outline: none;
+}
+option{
+    border-radius: 5px;
+}
+.demographics{
+    width: 17rem;
+    height: 10rem;
+    overflow: hidden;
+    border: solid white;
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
